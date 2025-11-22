@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form action="index.php" method="post" enctype="multipart/form-data">
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="username" minlength="6" maxlength="12" required><br>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" minlength="6" maxlength="12" required><br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="fake@email.com" required><br>
+
+            <label for="tel">Telephone</label>
+            <input type="tel" id="tel" placeholder="123-123-1234" pattern="[0-9] {3} - [0-9] {3} - [0-9] {4}"><br>
+
+            <label for="bday">Date</label>
+            <input type="date" id="bday"><br>
+
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity"><br>
+
+            <label for="title">Title :</label>
+
+            <label for="Mr">Mr</label>
+            <input type="radio" id="Mr" name="title">
+
+            <label for="Ms">Ms</label>
+            <input type="radio" id="Ms" name="title">
+            
+            <label for="Phd">PhD</label>
+            <input type="radio" id="Phd" name="title"><br>
+
+            <label for="Payment">Payment</label>
+
+            <select id="Payment">
+                <option id="visa">visa</option>
+                <option id="mastercard">mastercard</option>
+                <option id="giftcard">giftcard</option>
+            </select><br>
+
+            <label for="subscribe">Subscribe</label>
+            <input type="checkbox" id="subscribe"><br>
+
+            <label for="comment">comment</label>
+            <textarea id="comment" rows="3" cols="20"></textarea><br>
+
+            <label for="file">image</label>
+            <input type="file" id="file" accept="image/png"><br>
+
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </body>
+</html>
