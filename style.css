@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+#h1{
+    color: brown;
+}
+
+#p1{
+    color: aqua;
+}
+
+#p2{
+    color: blue;
+}
+
+#p3{
+    color: yellowgreen;
+}
+
+#p4{
+    color: yellow;
+}
+
+ /*
+ for id use #
+ for class use .
+ */
