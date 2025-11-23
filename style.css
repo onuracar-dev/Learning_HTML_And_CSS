@@ -25,3 +25,20 @@ body{
  for id use #
  for class use .
  */
+
+@font-face{
+    src: url(/font/ScienceGothic-VariableFont_CTRS\,slnt\,wdth\,wght.ttf);
+    font-family: ScienceGothic;
+}
+ h2{
+    font-family: ScienceGothic;
+    color: chocolate;
+ }
+
+ p{
+    font-family: ScienceGothic;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+ }
