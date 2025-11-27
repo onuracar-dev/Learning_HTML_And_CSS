@@ -1,0 +1,11 @@
+ #border_h1{
+    border: 3px solid red;
+    border-radius: 15px;
+ }
+
+ #border_p1{
+    border-bottom: 3px solid blue;
+    border-top: 5px dotted burlywood;
+    border-left: 7px double aqua;
+    border-right: 6px groove lime;
+ }
