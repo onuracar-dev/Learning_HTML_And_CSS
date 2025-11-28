@@ -1,0 +1,20 @@
+body{
+    margin: 0px;
+}
+
+.box{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 5em;
+}
+
+#box1{
+    background-color: chocolate;
+    margin: 50px;
+}
+
+#box2{
+    background-color: aqua;
+    margin: 50px;
+}
