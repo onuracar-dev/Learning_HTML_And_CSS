@@ -1,0 +1,15 @@
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    position: fixed; /*there is relative , fixed , absolute , sticky , static*/
+    top: 100px;
+    left: 100px;
+}
+
+#box2{
+    background-color: yellowgreen;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+}
