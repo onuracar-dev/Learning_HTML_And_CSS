@@ -1,0 +1,9 @@
+div{
+    background-color: red;
+    display: inline; /* there is block - inline block and some other*/
+}
+
+span{
+    background-color: blue;
+    display: block;
+}
