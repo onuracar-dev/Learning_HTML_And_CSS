@@ -1,0 +1,46 @@
+a:link{
+    color: antiquewhite;
+}
+
+a:hover{
+    color: aqua;
+    font-size: 1.1em;
+}
+
+a:active{
+    color: darkblue;
+}
+
+a:visited{
+    color: gainsboro;
+}
+/*
+
+li:hover{
+    background-color: brown;
+}
+
+li:not(hover){
+    background-color: rgb(26, 199, 156);
+} 
+    
+*/
+
+/*
+
+li:nth-child(1){    /*odd even or something like 3n+2
+    background-color: yellow;
+}
+
+*/
+
+#greeting p{
+    background-color: cadetblue;
+    padding: 7px;
+    display: none;
+}
+
+#greeting:hover p{
+    display: block;
+}
+
