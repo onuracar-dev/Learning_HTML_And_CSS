@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(0, 0%, 35%);
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.navbar ul a:hover {
+    background-color: hsl(0, 0%, 15%);
+}
