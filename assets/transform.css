@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+.box1 {
+    height: 250px;
+    width: 250px;
+    background-color: gray;
+    text-align: center;
+    font-size: 10em;
+    border: 5px solid black;
+    transform: rotateZ(15deg) /* there is translete scale scew rotate; */
+}
