@@ -11,7 +11,8 @@ h1 {
     margin: 0px;
     padding: 0px;
     background-color: hsl(0, 0%, 35%);
-    
+    display: flex;
+    justify-content:center;
 }
 
 .navbar a {
